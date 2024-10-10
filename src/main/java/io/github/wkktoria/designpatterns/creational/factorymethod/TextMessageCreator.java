@@ -5,7 +5,7 @@ package io.github.wkktoria.designpatterns.creational.factorymethod;
  */
 class TextMessageCreator extends MessageCreator {
     @Override
-    Message createMessage() {
+    protected Message createMessage() {
         return new TextMessage();
     }
 }
