@@ -1,5 +1,5 @@
 package io.github.wkktoria.solid.interfacesegregation.good;
 
-interface Scanner {
+public interface Scanner {
     void scan();
 }

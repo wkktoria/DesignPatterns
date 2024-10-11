@@ -1,10 +1,10 @@
 package io.github.wkktoria.solid.dependencyinversion.bad;
 
-class Computer {
+public class Computer {
     private Keyboard keyboard;
     private Monitor monitor;
 
-    Computer() {
+    public Computer() {
         keyboard = new Keyboard();
         monitor = new Monitor();
     }

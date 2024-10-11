@@ -6,7 +6,7 @@ import java.time.Period;
 /**
  * The concrete builder for {@link UserWebDto}.
  */
-class UserWebDtoBuilder implements UserDtoBuilder {
+public class UserWebDtoBuilder implements UserDtoBuilder {
     private String firstName;
     private String lastName;
     private String age;

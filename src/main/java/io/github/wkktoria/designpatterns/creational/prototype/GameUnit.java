@@ -7,18 +7,18 @@ import lombok.Getter;
  * This class represents an abstract prototype and defines the {@link #clone()} method.
  */
 @Getter
-abstract class GameUnit implements Cloneable {
+public abstract class GameUnit implements Cloneable {
     private Point3D position;
 
-    GameUnit() {
+    public GameUnit() {
         this.position = Point3D.ZERO;
     }
 
-    GameUnit(final float x, final float y, final float z) {
+    public GameUnit(final float x, final float y, final float z) {
         this.position = new Point3D(x, y, z);
     }
 
-    void move(final Point3D direction, final float distance) {
+    public void move(final Point3D direction, final float distance) {
         Point3D finalMove = direction.normalize();
         finalMove = finalMove.multiply(distance);
         this.position = this.position.add(finalMove);

@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
  */
 @Getter
 @Setter
-abstract class Post {
+public abstract class Post {
     private Long id;
     private String title;
     private String content;

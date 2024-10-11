@@ -3,10 +3,10 @@ package io.github.wkktoria.designpatterns.creational.abstractfactory;
 import io.github.wkktoria.designpatterns.creational.abstractfactory.aws.AwsResourceFactory;
 import io.github.wkktoria.designpatterns.creational.abstractfactory.gcp.GoogleResourceFactory;
 
-class Client {
+public class Client {
     private final ResourceFactory factory;
 
-    Client(final ResourceFactory factory) {
+    public Client(final ResourceFactory factory) {
         this.factory = factory;
     }
 
@@ -22,7 +22,7 @@ class Client {
         i2.stop();
     }
 
-    Instance createServer(final Instance.Capacity capacity, final int capacityInMib) {
+    protected Instance createServer(final Instance.Capacity capacity, final int capacityInMib) {
         Instance instance = factory.createInstance(capacity);
         Storage storage = factory.createStorage(capacityInMib);
 

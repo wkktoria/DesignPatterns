@@ -1,5 +1,5 @@
 package io.github.wkktoria.solid.openclosed.good;
 
-interface Shape {
+public interface Shape {
     double calculateArea();
 }

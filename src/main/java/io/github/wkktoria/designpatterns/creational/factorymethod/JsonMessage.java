@@ -1,8 +1,8 @@
 package io.github.wkktoria.designpatterns.creational.factorymethod;
 
-class JsonMessage extends Message {
+public class JsonMessage extends Message {
     @Override
-    String getContent() {
+    public String getContent() {
         return "{\"JSON\": []}";
     }
 }

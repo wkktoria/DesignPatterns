@@ -1,5 +1,5 @@
 package io.github.wkktoria.solid.liskovsubstitution.good;
 
-interface Shape {
+public interface Shape {
     int getArea();
 }

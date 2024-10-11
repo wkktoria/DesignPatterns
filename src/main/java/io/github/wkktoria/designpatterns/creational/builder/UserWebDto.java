@@ -12,7 +12,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-class UserWebDto implements UserDto {
+public class UserWebDto implements UserDto {
     private String name;
     private String address;
     private String age;

@@ -4,13 +4,13 @@ package io.github.wkktoria.designpatterns.creational.factorymethod;
  * This is abstract creator.
  * The abstract method {@link #createMessage()} has to be implemented by its subclasses.
  */
-abstract class MessageCreator {
+public abstract class MessageCreator {
     /**
      * This is called by clients.
      *
      * @return a {@link Message}
      */
-    Message getMessage() {
+    public Message getMessage() {
         Message message = createMessage();
         message.addDefaultHeaders();
         message.encrypt();

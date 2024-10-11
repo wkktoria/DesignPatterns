@@ -10,7 +10,7 @@ import java.time.LocalDate;
  */
 @Getter
 @Setter
-class NewsPost extends Post {
+public class NewsPost extends Post {
     private String headline;
     private LocalDate newsTime;
 }

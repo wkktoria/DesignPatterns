@@ -1,6 +1,6 @@
 package io.github.wkktoria.designpatterns.creational.simplefactory;
 
-enum PostType {
+public enum PostType {
     NEWS,
     BLOG,
     PRODUCT

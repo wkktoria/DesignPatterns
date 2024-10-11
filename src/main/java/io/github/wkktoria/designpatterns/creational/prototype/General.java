@@ -3,10 +3,10 @@ package io.github.wkktoria.designpatterns.creational.prototype;
 /**
  * Doesn't support cloning.
  */
-class General extends GameUnit {
+public class General extends GameUnit {
     private UnitState state = UnitState.IDLE;
 
-    void boostMorale() {
+    public void boostMorale() {
         this.state = UnitState.MORAL_BOOST;
     }
 

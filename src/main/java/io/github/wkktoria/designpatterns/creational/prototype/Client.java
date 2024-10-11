@@ -2,7 +2,7 @@ package io.github.wkktoria.designpatterns.creational.prototype;
 
 import javafx.geometry.Point3D;
 
-class Client {
+public class Client {
     public static void main(String[] args) throws CloneNotSupportedException {
         Swordsman s1 = new Swordsman();
         s1.move(new Point3D(-10, 0, 0), 20);

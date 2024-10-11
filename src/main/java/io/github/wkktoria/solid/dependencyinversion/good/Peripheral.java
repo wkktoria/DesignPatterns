@@ -1,5 +1,5 @@
 package io.github.wkktoria.solid.dependencyinversion.good;
 
-interface Peripheral {
+public interface Peripheral {
     void connect();
 }

@@ -1,5 +1,5 @@
 package io.github.wkktoria.solid.interfacesegregation.good;
 
-interface Fax {
+public interface Fax {
     void fax();
 }

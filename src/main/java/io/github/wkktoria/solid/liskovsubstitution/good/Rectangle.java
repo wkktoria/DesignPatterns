@@ -3,7 +3,7 @@ package io.github.wkktoria.solid.liskovsubstitution.good;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-class Rectangle implements Shape {
+public class Rectangle implements Shape {
     private int width;
     private int height;
 

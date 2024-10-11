@@ -8,7 +8,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-class BlogPost extends Post {
+public class BlogPost extends Post {
     private String author;
     private String[] tags;
 }

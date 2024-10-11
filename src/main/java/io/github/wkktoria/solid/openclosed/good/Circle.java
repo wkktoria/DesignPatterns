@@ -3,7 +3,7 @@ package io.github.wkktoria.solid.openclosed.good;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-class Circle implements Shape {
+public class Circle implements Shape {
     private double radius;
 
     @Override

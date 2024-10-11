@@ -5,7 +5,7 @@ import java.time.LocalDate;
 /**
  * The client which works also as a director.
  */
-class Client {
+public class Client {
     public static void main(String[] args) {
         User user = createUser();
         UserDtoBuilder builder = new UserWebDtoBuilder();
@@ -16,8 +16,9 @@ class Client {
 
     /**
      * Servers the role of director which construct desired product.
+     *
      * @param builder the concrete builder
-     * @param user the user entity to build product from
+     * @param user    the user entity to build product from
      * @return the final product
      */
     private static UserDto directBuild(UserDtoBuilder builder, User user) {
@@ -31,9 +32,10 @@ class Client {
 
     /**
      * Helper method which returns a sample user.
+     *
      * @return sample user
      */
-    private static User createUser() {
+    protected static User createUser() {
         User user = new User();
         user.setFirstName("John");
         user.setLastName("Doe");

@@ -1,8 +1,8 @@
 package io.github.wkktoria.designpatterns.creational.factorymethod;
 
-class TextMessage extends Message {
+public class TextMessage extends Message {
     @Override
-    String getContent() {
+    public String getContent() {
         return "Text";
     }
 }

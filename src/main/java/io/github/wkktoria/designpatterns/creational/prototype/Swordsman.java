@@ -1,9 +1,9 @@
 package io.github.wkktoria.designpatterns.creational.prototype;
 
-class Swordsman extends GameUnit {
+public class Swordsman extends GameUnit {
     private UnitState state = UnitState.IDLE;
 
-    void attack() {
+    public void attack() {
         this.state = UnitState.ATTACKING;
     }
 

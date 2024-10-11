@@ -5,14 +5,14 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-class Book {
+public class Book {
     private String title;
     private String author;
 
     /**
      * This method handles printing, which is an extra responsibility.
      */
-    void printDetails() {
+    public void printDetails() {
         System.out.println("Title: " + title + ", Author: " + author);
     }
 }

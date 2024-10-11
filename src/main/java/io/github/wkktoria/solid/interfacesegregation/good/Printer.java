@@ -1,5 +1,5 @@
 package io.github.wkktoria.solid.interfacesegregation.good;
 
-interface Printer {
+public interface Printer {
     void print();
 }
