@@ -1,0 +1,1 @@
+**Prototype** allows to copy existing objects without making the code dependent on their classes.

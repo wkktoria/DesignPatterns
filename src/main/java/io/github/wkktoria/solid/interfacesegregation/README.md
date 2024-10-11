@@ -1,0 +1,2 @@
+**Interface Segregation Principle** (**ISP**) - Clients should not be forced to depend on interfaces they do not use.
+This means that the interfaces should be designed to be as specific and focused as possible.

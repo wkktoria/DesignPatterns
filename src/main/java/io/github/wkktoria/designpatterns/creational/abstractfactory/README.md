@@ -1,0 +1,1 @@
+**Abstract Factory** allows to produce families of relates objects without specifying their concrete classes.

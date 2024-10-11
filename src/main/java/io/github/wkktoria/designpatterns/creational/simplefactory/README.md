@@ -1,0 +1,1 @@
+**Simple Factory** encapsulates away the object instantiation in a separate method.
