@@ -8,7 +8,7 @@ import java.time.LocalDate;
 /**
  * Entity class used to construct the DTO.
  *
- * @see <a href="https://stackoverflow.com/questions/1051182/what-is-a-data-transfer-object-dto"></a>
+ * @see <a href="https://stackoverflow.com/questions/1051182/what-is-a-data-transfer-object-dto">What is DTO?</a>
  */
 @Getter
 @Setter
